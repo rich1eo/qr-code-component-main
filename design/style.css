@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  background-color: hsl(212, 45%, 89%);
+}
+
+/* FOOTER */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a:link {
+  color: hsl(228, 45%, 44%);
+}
+
+/* MAIN LAYOUT - CARD */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  width: 280px;
+  height: 430px;
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  border-radius: 15px;
+}
+
+.qr-img {
+  width: 250px;
+  height: 250px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.content-head {
+  font-size: 2.1rem;
+  padding: 0 2rem;
+  padding-top: 2rem;
+  color: hsl(218, 44%, 22%);
+}
+
+.content-subtitle {
+  font-size: 1.3rem;
+  color: hsl(220, 15%, 55%);
+  padding: 0 2rem;
+  padding-top: 2rem;
+}
